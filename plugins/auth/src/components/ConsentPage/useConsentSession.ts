@@ -30,6 +30,7 @@ interface Session {
   clientName?: string;
   clientId: string;
   redirectUri: string;
+  scope?: string;
   scopes?: string[];
   responseType?: string;
   state?: string;
